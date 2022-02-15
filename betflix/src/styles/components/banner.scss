@@ -1,0 +1,48 @@
+.Banner{
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  height: 50vh;
+  font-size: 0.9rem;
+  padding-bottom: 3rem;
+  color: #FFF;
+  padding: 2em 2em;
+  height: 37rem;
+.info{
+  width: 30%;
+}
+  .title{
+    margin-bottom: 2%;
+    font-size: 3rem;
+    
+  }
+.callToAction{
+  display: flex;
+}
+  .button {
+    background-color: rgba(110, 110, 110, 0.7);  
+    width: 6rem;
+    height: 5vh;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 10px;
+    .icon{
+      padding-top: 5px;
+    }
+    &:hover{
+      background-color: white;
+      .icon{
+        position: relative;
+        color: black;
+
+      }
+    }
+    button{
+      padding-left: 5px;
+    
+    }
+  }
+}
